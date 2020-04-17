@@ -7,6 +7,7 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "febriansyah-adi-putra": "npm run start --prefix febriansyah-adi-putra",
+    "build": "npm run build --prefix febriansyah-adi-putra",
     "dev": "concurrently \"npm run server\" \"npm run febriansyah-adi-putra\""
   },
   "keywords": [],
